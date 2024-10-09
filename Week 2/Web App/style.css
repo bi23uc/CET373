@@ -1,0 +1,60 @@
+
+nav {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+img {
+    padding: 5px;
+    border-radius: 12px;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+form {
+    display: table;
+    border: solid 1px black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px
+}
+
+.form textarea {
+    display: table-row;
+}
+
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+body {
+    text-align: center;
+}
